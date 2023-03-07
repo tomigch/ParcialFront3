@@ -1,19 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
-
-import Card from "./Card";
-
+import Form from './components/Form.jsx'
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card />
-    </div>
-  );
+   return (
+   <Form/>
+  )
 }
 
-
-export default App;
+export default App
